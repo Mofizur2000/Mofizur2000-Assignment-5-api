@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#searchBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#inputBox{
+    border: 1px solid rgb(255, 208, 0);
+    border-radius: 20px;
+    width: 20rem;
+    height: 2rem;
+    margin-right: 5px;
+    padding: 0 10px;
+}
+#btn{
+    border: 1px solid rgb(255, 208, 0);
+    background-color: rgb(255, 208, 0);
+    color: white;
+    border-radius: 20px;
+    width: 4rem;
+    height: 2rem;
+    margin-right: 5px;
+}
+#btn:hover{
+    background-color: rgb(0, 255, 55);
+}
+#foodGallry{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px;
+    
+}
+.item{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    margin: 10px;
+    
+}
