@@ -17,7 +17,7 @@
     margin-right: 5px;
     padding: 0 10px;
 }
-#btn{
+.btn{
     border: 1px solid rgb(255, 208, 0);
     background-color: rgb(255, 208, 0);
     color: white;
@@ -26,7 +26,7 @@
     height: 2rem;
     margin-right: 5px;
 }
-#btn:hover{
+.btn:hover{
     background-color: rgb(0, 255, 55);
 }
 #foodGallry{
@@ -44,4 +44,25 @@
     background-color: yellowgreen;
     margin: 10px;
     
+}
+.foodDetals {
+    display: grid;
+    justify-items: center;
+    grid-gap: 5px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(236, 234, 232);
+    box-shadow: 5px 5px 10px rgb(226, 226, 226);
+}
+.foodDetals img{
+    width: 30%;
+}
+#moreAbout{
+    margin-top: 20px;
+    display: grid;
+    justify-items: center;
+}
+#moreAbout img{
+    width: 50%;
 }
